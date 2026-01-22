@@ -1,0 +1,16 @@
+{
+  "name": "underwriting-engine-service",
+  "version": "1.0.0",
+  "description": "Node/TypeScript underwriting decision engine",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "ts-node-dev src/main.ts",
+    "build": "tsc",
+    "test": "jest",
+    "test:e2e": "jest --config=jest.e2e.config.js"
+  },
+  "keywords": ["underwriting", "decision-engine", "risk-scoring", "cync"],
+  "author": "",
+  "license": "MIT"
+}
